@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="460ccd2f-f82a-4fa7-a2b1-b477156c85bc" name="Changes" comment="" />
+    <list default="true" id="460ccd2f-f82a-4fa7-a2b1-b477156c85bc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/headline-service/headline-article/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/headline-service/headline-article/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headline-service/headline-wemedia/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/headline-service/headline-wemedia/src/main/resources/logback.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -294,7 +297,7 @@
       <workItem from="1691478323849" duration="6346000" />
       <workItem from="1692326588506" duration="2705000" />
       <workItem from="1692950349277" duration="1540000" />
-      <workItem from="1692951919071" duration="118000" />
+      <workItem from="1692951919071" duration="544000" />
     </task>
     <servers />
   </component>
