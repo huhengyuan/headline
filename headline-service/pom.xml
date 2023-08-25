@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.hhy</groupId>
+        <artifactId>headline</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <groupId>com.hhy</groupId>
+    <artifactId>headline-service</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>headline-service</name>
+    <description>headline-service</description>
+    <packaging>pom</packaging>
+    <properties>
+        <java.version>1.8</java.version>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+    <modules>
+        <module>headline-user</module>
+        <module>headline-article</module>
+        <module>headline-wemedia</module>
+    </modules>
+    <dependencies>
+        <!-- 引入依赖模块 -->
+        <dependency>
+            <groupId>com.hhy</groupId>
+            <artifactId>headline-model</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.hhy</groupId>
+            <artifactId>headline-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.hhy</groupId>
+            <artifactId>headline-utils</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.hhy</groupId>
+            <artifactId>headline-feign-api</artifactId>
+        </dependency>
+        <!-- Spring boot starter -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

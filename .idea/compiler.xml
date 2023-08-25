@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="freemarker-demo" />
+        <module name="minio-demo" />
+        <module name="headline-model" />
+        <module name="headline-wemedia-gateway" />
+        <module name="headline-wemedia" />
+        <module name="headline-file-starter" />
+        <module name="study-test" />
+        <module name="headline-common" />
+        <module name="headline-article" />
+        <module name="headline-app-gateway" />
+        <module name="headline-utils" />
+        <module name="headline-feign-api" />
+        <module name="headline-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="freemarker-demo" target="1.8" />
+      <module name="headline" target="1.8" />
+      <module name="headline-app-gateway" target="1.8" />
+      <module name="headline-article" target="1.8" />
+      <module name="headline-basic" target="1.8" />
+      <module name="headline-common" target="1.8" />
+      <module name="headline-feign-api" target="1.8" />
+      <module name="headline-file-starter" target="1.8" />
+      <module name="headline-gateway" target="1.8" />
+      <module name="headline-model" target="1.8" />
+      <module name="headline-service" target="1.8" />
+      <module name="headline-test" target="1.8" />
+      <module name="headline-user" target="1.8" />
+      <module name="headline-utils" target="1.8" />
+      <module name="headline-wemedia" target="1.8" />
+      <module name="headline-wemedia-gateway" target="1.8" />
+      <module name="minio-demo" target="1.8" />
+      <module name="study-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="freemarker-demo" options="-parameters" />
+      <module name="headline" options="" />
+      <module name="headline-app-gateway" options="-parameters" />
+      <module name="headline-article" options="-parameters" />
+      <module name="headline-basic" options="" />
+      <module name="headline-common" options="-parameters" />
+      <module name="headline-feign-api" options="-parameters" />
+      <module name="headline-file-starter" options="-parameters" />
+      <module name="headline-gateway" options="" />
+      <module name="headline-model" options="-parameters" />
+      <module name="headline-service" options="" />
+      <module name="headline-test" options="" />
+      <module name="headline-user" options="-parameters" />
+      <module name="headline-utils" options="-parameters" />
+      <module name="headline-wemedia" options="-parameters" />
+      <module name="headline-wemedia-gateway" options="-parameters" />
+      <module name="minio-demo" options="-parameters" />
+      <module name="study-test" options="-parameters" />
+    </option>
+  </component>
+</project>

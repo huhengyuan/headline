@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/headline-test/freemarker-demo/freemarker-demo.iml" filepath="$PROJECT_DIR$/headline-test/freemarker-demo/freemarker-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headline.iml" filepath="$PROJECT_DIR$/headline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headline-gateway/headline-app-gateway/headline-app-gateway.iml" filepath="$PROJECT_DIR$/headline-gateway/headline-app-gateway/headline-app-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headline-service/headline-article/headline-article.iml" filepath="$PROJECT_DIR$/headline-service/headline-article/headline-article.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headline-basic/headline-basic.iml" filepath="$PROJECT_DIR$/headline-basic/headline-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headline-common/headline-common.iml" filepath="$PROJECT_DIR$/headline-common/headline-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headline-feign-api/headline-feign-api.iml" filepath="$PROJECT_DIR$/headline-feign-api/headline-feign-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headline-basic/headline-file-starter/headline-file-starter.iml" filepath="$PROJECT_DIR$/headline-basic/headline-file-starter/headline-file-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headline-gateway/headline-gateway.iml" filepath="$PROJECT_DIR$/headline-gateway/headline-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headline-model/headline-model.iml" filepath="$PROJECT_DIR$/headline-model/headline-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headline-service/headline-service.iml" filepath="$PROJECT_DIR$/headline-service/headline-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headline-test/headline-test.iml" filepath="$PROJECT_DIR$/headline-test/headline-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headline-service/headline-user/headline-user.iml" filepath="$PROJECT_DIR$/headline-service/headline-user/headline-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headline-utils/headline-utils.iml" filepath="$PROJECT_DIR$/headline-utils/headline-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headline-service/headline-wemedia/headline-wemedia.iml" filepath="$PROJECT_DIR$/headline-service/headline-wemedia/headline-wemedia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headline-gateway/headline-wemedia-gateway/headline-wemedia-gateway.iml" filepath="$PROJECT_DIR$/headline-gateway/headline-wemedia-gateway/headline-wemedia-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headline-test/minio-demo/minio-demo.iml" filepath="$PROJECT_DIR$/headline-test/minio-demo/minio-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headline-test/study-test/study-test.iml" filepath="$PROJECT_DIR$/headline-test/study-test/study-test.iml" />
+    </modules>
+  </component>
+</project>

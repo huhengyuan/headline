@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/headline-common/pom.xml" />
+        <option value="$PROJECT_DIR$/headline-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/headline-common/headline-model/pom.xml" />
+        <option value="$PROJECT_DIR$/headline-feign-api/pom.xml" />
+        <option value="$PROJECT_DIR$/headline-service/pom.xml" />
+        <option value="$PROJECT_DIR$/headline-service/headline-user/pom.xml" />
+        <option value="$PROJECT_DIR$/headline-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/headline-gateway/headline-app-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/headline-test/pom.xml" />
+        <option value="$PROJECT_DIR$/headline-service/headline-article/pom.xml" />
+        <option value="$PROJECT_DIR$/headline-test/freemarker-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/headline-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/headline-test/minio-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/headline-service/headline-wemedia/pom.xml" />
+        <option value="$PROJECT_DIR$/headline-gateway/headline-wemedia-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/headline-test/study-test/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
