@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="460ccd2f-f82a-4fa7-a2b1-b477156c85bc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/headline-service/headline-article/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/headline-service/headline-article/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headline-service/headline-wemedia/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/headline-service/headline-wemedia/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headline-service/headline-user/src/main/java/com/hhy/headline/user/HeadlineUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/headline-service/headline-user/src/main/java/com/hhy/headline/user/HeadlineUserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headline-service/headline-wemedia/src/main/java/com/hhy/headline/wemedia/HeadlineWemediaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/headline-service/headline-wemedia/src/main/java/com/hhy/headline/wemedia/HeadlineWemediaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headline-service/headline-wemedia/src/main/java/com/hhy/headline/wemedia/controller/v1/WmMaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/headline-service/headline-wemedia/src/main/java/com/hhy/headline/wemedia/controller/v1/WmMaterialController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headline-service/headline-wemedia/src/main/java/com/hhy/headline/wemedia/server/WmMaterialService.java" beforeDir="false" afterPath="$PROJECT_DIR$/headline-service/headline-wemedia/src/main/java/com/hhy/headline/wemedia/server/WmMaterialService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headline-service/headline-wemedia/src/main/java/com/hhy/headline/wemedia/server/impl/WmMaterialServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/headline-service/headline-wemedia/src/main/java/com/hhy/headline/wemedia/server/impl/WmMaterialServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headline-test/study-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/headline-test/study-test/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,25 +49,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "G:/BaiduNetdiskDownload/3、黑马程序员Java微服务项目《黑马头条》/day03-自媒体文章发布/代码/heima-leadnews",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "8b08e06316b2509781837b64bd7d36e3"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/BaiduNetdiskDownload/3、黑马程序员Java微服务项目《黑马头条》/day12-项目部署 持续集成发布Jenkins+Git+Docker/代码/heima-leadnews&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8b08e06316b2509781837b64bd7d36e3&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\微服务\headline\headline-service\headline-wemedia\src\main\resources" />
@@ -83,7 +87,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.MailUtils">
+    <configuration name="MailUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.studytest.email.MailUtils" />
+      <module name="study-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.studytest.email.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinioDemoApplicationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hhy.minio.MinioDemoApplicationTests" />
       <module name="minio-demo" />
@@ -106,22 +123,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FreemarkerDemoApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="freemarker-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hhy.freemarker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hhy.freemarker" />
-      <option name="MAIN_CLASS_NAME" value="com.hhy.freemarker.FreemarkerDemoApplicationTests" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -266,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MailUtils" />
         <item itemvalue="Application.test" />
         <item itemvalue="JUnit.MinioDemoApplicationTests.contextLoads" />
         <item itemvalue="JUnit.HeadlineArticleApplicationTests.createStaticUrlTest" />
         <item itemvalue="Application.MinioDemoApplicationTests" />
-        <item itemvalue="JUnit.FreemarkerDemoApplicationTests.test" />
       </list>
     </recent_temporary>
   </component>
@@ -297,11 +298,18 @@
       <workItem from="1691478323849" duration="6346000" />
       <workItem from="1692326588506" duration="2705000" />
       <workItem from="1692950349277" duration="1540000" />
-      <workItem from="1692951919071" duration="544000" />
+      <workItem from="1692951919071" duration="5322000" />
+      <workItem from="1693380919427" duration="7025000" />
+      <workItem from="1693809349354" duration="759000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/headline" />
+    </ignored-roots>
   </component>
 </project>
