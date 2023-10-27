@@ -22,6 +22,7 @@
         <module>headline-user</module>
         <module>headline-article</module>
         <module>headline-wemedia</module>
+        <module>headline-schedule</module>
     </modules>
     <dependencies>
         <!-- 引入依赖模块 -->

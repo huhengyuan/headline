@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/headline-basic/headline-file-starter/headline-file-starter.iml" filepath="$PROJECT_DIR$/headline-basic/headline-file-starter/headline-file-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/headline-gateway/headline-gateway.iml" filepath="$PROJECT_DIR$/headline-gateway/headline-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/headline-model/headline-model.iml" filepath="$PROJECT_DIR$/headline-model/headline-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headline-service/headline-schedule/headline-schedule.iml" filepath="$PROJECT_DIR$/headline-service/headline-schedule/headline-schedule.iml" />
       <module fileurl="file://$PROJECT_DIR$/headline-service/headline-service.iml" filepath="$PROJECT_DIR$/headline-service/headline-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/headline-test/headline-test.iml" filepath="$PROJECT_DIR$/headline-test/headline-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/headline-service/headline-user/headline-user.iml" filepath="$PROJECT_DIR$/headline-service/headline-user/headline-user.iml" />

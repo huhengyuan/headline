@@ -13,6 +13,7 @@
         <module name="headline-wemedia-gateway" />
         <module name="headline-wemedia" />
         <module name="headline-file-starter" />
+        <module name="headline-schedule" />
         <module name="study-test" />
         <module name="headline-common" />
         <module name="headline-article" />
@@ -33,6 +34,7 @@
       <module name="headline-file-starter" target="1.8" />
       <module name="headline-gateway" target="1.8" />
       <module name="headline-model" target="1.8" />
+      <module name="headline-schedule" target="1.8" />
       <module name="headline-service" target="1.8" />
       <module name="headline-test" target="1.8" />
       <module name="headline-user" target="1.8" />
@@ -55,6 +57,7 @@
       <module name="headline-file-starter" options="-parameters" />
       <module name="headline-gateway" options="" />
       <module name="headline-model" options="-parameters" />
+      <module name="headline-schedule" options="-parameters" />
       <module name="headline-service" options="" />
       <module name="headline-test" options="" />
       <module name="headline-user" options="-parameters" />

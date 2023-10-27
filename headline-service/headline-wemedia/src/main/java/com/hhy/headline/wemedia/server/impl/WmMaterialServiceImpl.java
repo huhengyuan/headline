@@ -67,6 +67,7 @@ public class WmMaterialServiceImpl extends ServiceImpl<WmMaterialMapper, WmMater
         wmMaterial.setType((short)0);
         wmMaterial.setCreatedTime(new Date());
         // 保存到数据库
+        log.info("保存图片信息：", wmMaterial);
         save(wmMaterial);
 
         //4.返回结果

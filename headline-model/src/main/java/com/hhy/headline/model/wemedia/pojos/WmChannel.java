@@ -69,7 +69,7 @@ public class WmChannel implements Serializable {
      * @param:
      * @return:
      **/
-    @TableField("org")
+    @TableField("ord")
     private Integer ord;
     /**
      * @description:创建时间

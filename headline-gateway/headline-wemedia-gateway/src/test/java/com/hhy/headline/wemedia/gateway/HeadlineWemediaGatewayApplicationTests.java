@@ -1,6 +1,6 @@
 package com.hhy.headline.wemedia.gateway;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest

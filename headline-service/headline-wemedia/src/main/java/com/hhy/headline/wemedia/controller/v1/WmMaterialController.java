@@ -3,6 +3,7 @@ package com.hhy.headline.wemedia.controller.v1;
 import com.hhy.headline.model.common.dtos.ResponseResult;
 import com.hhy.headline.model.wemedia.dtos.WmMaterialDto;
 import com.hhy.headline.wemedia.server.WmMaterialService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -17,6 +18,7 @@ import org.springframework.web.multipart.MultipartFile;
  */
 @RestController
 @RequestMapping("/api/v1/material")
+@Slf4j
 public class WmMaterialController {
     @Autowired
     private WmMaterialService wmMaterialService;
@@ -52,6 +54,7 @@ public class WmMaterialController {
      **/
     @GetMapping("/cancel_collect/{id}")
     public ResponseResult cancelCollect(@PathVariable Integer id){
+        log.info("收藏图片ID", id);
         return wmMaterialService.cancelCollect(id);
     }
 }
