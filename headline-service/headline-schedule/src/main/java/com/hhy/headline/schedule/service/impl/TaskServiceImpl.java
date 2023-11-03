@@ -233,7 +233,7 @@ public class TaskServiceImpl implements TaskService {
      */
     @Scheduled(cron = "0 */1 * * * ?")
     public void refresh() {
-
+        // 分布式锁 - setnx
         String token = cacheService.tryLock("FUTRUE_TASK_SYNC", 1000 * 30);
 
         if(StringUtils.isNotBlank(token)){

@@ -21,6 +21,9 @@
         <option value="$PROJECT_DIR$/headline-gateway/headline-wemedia-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/headline-test/study-test/pom.xml" />
         <option value="$PROJECT_DIR$/headline-service/headline-schedule/pom.xml" />
+        <option value="$PROJECT_DIR$/headline-test/kafka-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/headline-test/es-init/pom.xml" />
+        <option value="$PROJECT_DIR$/headline-service/headline-search/pom.xml" />
       </list>
     </option>
   </component>

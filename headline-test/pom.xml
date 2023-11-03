@@ -17,6 +17,8 @@
         <module>freemarker-demo</module>
         <module>minio-demo</module>
         <module>study-test</module>
+        <module>kafka-demo</module>
+        <module>es-init</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
@@ -38,12 +40,30 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
-
+        <!-- kafkfa -->
         <dependency>
-            <groupId>com.hhy</groupId>
-            <artifactId>headline-file-starter</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.apache.kafka</groupId>
+                    <artifactId>kafka-clients</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-clients</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.hhy</groupId>-->
+<!--            <artifactId>headline-file-starter</artifactId>-->
+<!--            <version>0.0.1-SNAPSHOT</version>-->
+<!--        </dependency>-->
     </dependencies>
 
 </project>

@@ -11,6 +11,7 @@ import com.hhy.headline.common.exception.CustomException;
 import com.hhy.headline.model.common.dtos.PageResponseResult;
 import com.hhy.headline.model.common.dtos.ResponseResult;
 import com.hhy.headline.model.common.enums.AppHttpCodeEnum;
+import com.hhy.headline.model.common.enums.WmNewsMessageEnum;
 import com.hhy.headline.model.wemedia.dtos.WmNewsDto;
 import com.hhy.headline.model.wemedia.dtos.WmNewsPageReqDto;
 import com.hhy.headline.model.wemedia.pojos.WmMaterial;
@@ -28,13 +29,11 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -284,5 +283,38 @@ public class WmNewsServiceImpl extends ServiceImpl<WmNewsMapper, WmNews> impleme
             updateById(wmNews);
         }
 
+    }
+    @Autowired
+    private KafkaTemplate<String,String> kafkaTemplate;
+
+    @Override
+    public ResponseResult downOrUp(WmNewsDto dto) {
+        // 1.检查参数
+        if(dto.getId() == null){
+            return ResponseResult.errorResult(AppHttpCodeEnum.PARAM_INVALID);
+        }
+        // 2.查询文章
+        WmNews wmNews = getById(dto.getId());
+        if(wmNews == null){
+            return ResponseResult.errorResult(AppHttpCodeEnum.DATA_NOT_EXIST);
+        }
+        // 3.判断是否已发布
+        if(!wmNews.getStatus().equals(WmNews.Status.PUBLISHED.getCode())){
+            return ResponseResult.errorResult(AppHttpCodeEnum.PARAM_INVALID, "文章尚未发布！");
+        }
+
+        //4.修改文章enable
+        if(dto.getEnable() != null && dto.getEnable() > -1 && dto.getEnable() < 2){
+            update(Wrappers.<WmNews>lambdaUpdate().set(WmNews::getEnable,dto.getEnable())
+                    .eq(WmNews::getId,wmNews.getId()));
+            //发送消息，通知article端修改文章配置
+            if(wmNews.getArticleId() != null){
+                Map<String,Object> map = new HashMap<>();
+                map.put("articleId",wmNews.getArticleId());
+                map.put("enable",dto.getEnable());
+                kafkaTemplate.send(WmNewsMessageEnum.WM_NEWS_UP_OR_DOWN_TOPIC,JSON.toJSONString(map));
+            }
+        }
+        return ResponseResult.okResult(AppHttpCodeEnum.SUCCESS);
     }
 }

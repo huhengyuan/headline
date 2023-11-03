@@ -5,6 +5,7 @@ import com.hhy.headline.model.common.dtos.ResponseResult;
 import com.hhy.headline.model.wemedia.dtos.WmNewsDto;
 import com.hhy.headline.model.wemedia.dtos.WmNewsPageReqDto;
 import com.hhy.headline.model.wemedia.pojos.WmNews;
+import org.springframework.web.bind.annotation.RequestBody;
 
 /**
  * @Author hhy
@@ -33,4 +34,5 @@ public interface WmNewsService extends IService<WmNews> {
      **/
     public ResponseResult submitNews(WmNewsDto dto);
 
+    public ResponseResult downOrUp(WmNewsDto dto);
 }

@@ -12,9 +12,12 @@
         <module name="headline-model" />
         <module name="headline-wemedia-gateway" />
         <module name="headline-wemedia" />
+        <module name="kafka-demo" />
         <module name="headline-file-starter" />
+        <module name="es-init" />
         <module name="headline-schedule" />
         <module name="study-test" />
+        <module name="headline-search" />
         <module name="headline-common" />
         <module name="headline-article" />
         <module name="headline-app-gateway" />
@@ -24,6 +27,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="es-init" target="1.8" />
       <module name="freemarker-demo" target="1.8" />
       <module name="headline" target="1.8" />
       <module name="headline-app-gateway" target="1.8" />
@@ -35,18 +39,21 @@
       <module name="headline-gateway" target="1.8" />
       <module name="headline-model" target="1.8" />
       <module name="headline-schedule" target="1.8" />
+      <module name="headline-search" target="1.8" />
       <module name="headline-service" target="1.8" />
       <module name="headline-test" target="1.8" />
       <module name="headline-user" target="1.8" />
       <module name="headline-utils" target="1.8" />
       <module name="headline-wemedia" target="1.8" />
       <module name="headline-wemedia-gateway" target="1.8" />
+      <module name="kafka-demo" target="1.8" />
       <module name="minio-demo" target="1.8" />
       <module name="study-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="es-init" options="-parameters" />
       <module name="freemarker-demo" options="-parameters" />
       <module name="headline" options="" />
       <module name="headline-app-gateway" options="-parameters" />
@@ -58,12 +65,14 @@
       <module name="headline-gateway" options="" />
       <module name="headline-model" options="-parameters" />
       <module name="headline-schedule" options="-parameters" />
+      <module name="headline-search" options="-parameters" />
       <module name="headline-service" options="" />
       <module name="headline-test" options="" />
       <module name="headline-user" options="-parameters" />
       <module name="headline-utils" options="-parameters" />
       <module name="headline-wemedia" options="-parameters" />
       <module name="headline-wemedia-gateway" options="-parameters" />
+      <module name="kafka-demo" options="-parameters" />
       <module name="minio-demo" options="-parameters" />
       <module name="study-test" options="-parameters" />
     </option>
