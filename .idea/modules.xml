@@ -23,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/headline-gateway/headline-wemedia-gateway/headline-wemedia-gateway.iml" filepath="$PROJECT_DIR$/headline-gateway/headline-wemedia-gateway/headline-wemedia-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/headline-test/kafka-demo/kafka-demo.iml" filepath="$PROJECT_DIR$/headline-test/kafka-demo/kafka-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/headline-test/minio-demo/minio-demo.iml" filepath="$PROJECT_DIR$/headline-test/minio-demo/minio-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headline-test/mongo-demo/mongo-demo.iml" filepath="$PROJECT_DIR$/headline-test/mongo-demo/mongo-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/headline-test/study-test/study-test.iml" filepath="$PROJECT_DIR$/headline-test/study-test/study-test.iml" />
     </modules>
   </component>
